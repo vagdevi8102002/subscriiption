@@ -1,0 +1,66 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.auth{
+    height: 810px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #204d92;
+}
+.auth .auth_in{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    padding: 50px;
+    width: 350px;
+}
+.auth .heading{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -5%;
+}
+.auth input[type="text"],input[type="email"],input[type="password"]{
+    width: 92%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid#CACACA;
+    padding: 5px 15px;
+}
+.auth .field{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 1%;
+}
+.auth input[type="submit"]{
+    width: 102%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #204d92;
+    color: white;
+    font-size: 15px;
+    margin-top: 10%;
+    outline: none;
+    border: 1px solid #204d92;
+    
+}
+.auth input[type="submit"]:hover{
+    cursor: pointer;
+}
+.auth .check{
+    margin-top: 15px;
+}
+.auth .small{
+    text-align: center;
+    margin-top: 15%;
+}
+.auth .small a{
+    text-decoration: none;
+}
+.auth .check .small{
+    margin-left: 10px;
+}
